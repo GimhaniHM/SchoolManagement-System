@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.7" prefHeight="500.0" prefWidth="800.0" styleClass="welcome-bg" stylesheets="@design.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.welcomeController">
+   <children>
+      <Button fx:id="browseButton" layoutX="356.0" layoutY="439.0" mnemonicParsing="false" onAction="#browseTo" text="Browse" textFill="#0d0c0c">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+      <VBox alignment="CENTER" layoutY="23.0" prefHeight="400.0" prefWidth="800.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="768.0" text="Welcome to ">
+               <font>
+                  <Font name="Verdana" size="80.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.16587677725118483" startY="0.7440758293838864">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.125490203499794" green="0.0117647061124444" blue="0.1725490242242813" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.0470588244497776" blue="0.7921568751335144" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label alignment="CENTER" prefHeight="159.0" prefWidth="828.0" styleClass="macroman-text" stylesheets="@design.css" text="MacroMan">
+               <font>
+                  <Font name="Colonna MT" size="130.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.3981042654028436" endY="1.0" startX="1.0" startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.09898879379034042" green="0.8552631735801697" blue="0.4897305369377136" opacity="0.9399999976158142" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.7285223367697594">
+                           <color>
+                              <Color red="0.06037500128149986" green="0.20999999344348907" blue="0.010499999858438969" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.07199999690055847" green="0.8999999761581421" blue="0.7391654849052429" opacity="0.9399999976158142" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="304.0" text="College">
+               <font>
+                  <Font size="80.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.5734597156398105" endY="1.0" startX="0.2796208530805687" startY="0.8483412322274883">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.125490203499794" green="0.0117647061124444" blue="0.1725490242242813" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="0.05000000074505806" blue="0.7941666841506958" opacity="0.6100000143051147" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
